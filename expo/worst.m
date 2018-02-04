@@ -7,8 +7,7 @@ x = 12;
 %first_expotiming = 0;       % "Perfect"
 %first_expotiming = 60 + 71; % CC First
 %first_expotiming = 60 + 45 + 71; % Reaper Expo
-%first_expotiming = 3*60 + 30 + 71; % Cloakshee
-first_expotiming = 3*60 + 30 + 71; % Cloakshee
+first_expotiming = 3*60 + 30 + 71; % 111
 
 while x<100
     % Firxt Expo Constraint
@@ -58,7 +57,7 @@ ylim(ax(1),[12 max(x)]);
 ylim(ax(2),[1 4]);
 ylabel(ax(1),'SCV Count');
 ylabel(ax(2),'Number of Bases');
-set(ax(1),'xtick',[0 1 2 3 4 5 6 7]);
+set(ax(1),'xtick',[0 1 2 3 4 5 6 7 8 9 10]);
 set(ax(1),'ytick',[15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95]);
 set(ax(2),'ytick',[0 1 2 3 4]);
 grid;
