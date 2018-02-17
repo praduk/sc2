@@ -4,14 +4,14 @@
 
 The income rates are
 
-Income/Minute | Source
+Income/Second | Source
 ------------- | ------
-800 min | 16 SCVs
-xxx min | Mule
-xxx gas | 3 SCVs on a gas
+912/60 min | 16 SCVs (912 minerals per minute)
+225/60 min | Mule (225 minerals every 64 seconds)
+162/60 gas | 3 SCVs on a gas (162 gas per minute)
 
 ## Production Costs
 
-Unit | Supply | Minerals | Gas | Build Time
+Unit | Supply   | Minerals | Gas | Build Time
 ---- | -------- | --- | ----------
 SCV  | 
