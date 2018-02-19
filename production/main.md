@@ -1,4 +1,4 @@
-# Building Count
+# Production
 
 ## Fully Saturated Income
 
@@ -10,8 +10,4 @@ Income/Second | Source
 225/60 min | Mule (225 minerals every 64 seconds)
 162/60 gas | 3 SCVs on a gas (162 gas per minute)
 
-## Production Costs
-
-Unit | Supply   | Minerals | Gas | Build Time
----- | -------- | --- | ----------
-SCV  | 
+## See run_manual MatLab Script
