@@ -3,7 +3,7 @@ close all;
 
 %%%%%%% INPUTS %%%%%%%
 
-bases    = 4;
+bases    = 3;
 orbitals = 3;
 gas      = 8;
 
@@ -13,12 +13,12 @@ scv       = bases; %(Constant Worker Production)
 
 % Barracks Units
 reaper    = 0;
-marine    = 15;
+marine    = 0;
 marauder  = 0;
 ghost     = 0;
 
 % Factory Units
-hellion   = 0;
+hellion   = 4;
 seigetank = 2;
 mine      = 0;
 thor      = 0;
@@ -26,9 +26,9 @@ cyclone   = 0;
 
 % Starport Units
 medivac       = 0;
-viking        = 0;
+viking        = 2;
 liberator     = 0;
-raven         = 3;
+raven         = 2;
 banshee       = 0;
 battlecruiser = 0;
 
