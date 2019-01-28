@@ -5,7 +5,7 @@ close all;
 
 bases    = 3;
 orbitals = 3;
-gas      = 6;
+gas      = 8;
 
 % Command Center Units
 scv       = bases; %(Constant Worker Production)
@@ -13,22 +13,22 @@ scv       = bases; %(Constant Worker Production)
 
 % Barracks Units
 reaper    = 0;
-marine    = 4;
-marauder  = 3;
+marine    = 0;
+marauder  = 0;
 ghost     = 0;
 
 % Factory Units
-hellion   = 0;
-seigetank = 0;
+hellion   = 4;
+seigetank = 2;
 mine      = 0;
 thor      = 0;
 cyclone   = 0;
 
 % Starport Units
-medivac       = 2;
-viking        = 0;
-liberator     = 2;
-raven         = 0;
+medivac       = 0;
+viking        = 2;
+liberator     = 0;
+raven         = 2;
 banshee       = 0;
 battlecruiser = 0;
 
@@ -52,7 +52,7 @@ units = [
     battlecruiser
 ];
 
-[ surplus_nodepot, surplus_gas, surplus_depot, unit_comp ] ...
+[ surplus_nodepot surplus_gas surplus_depot unit_comp ] ...
     = calcProd(bases,orbitals,gas,units);
 
 fprintf('Bases    = %d\nOrbitals = %d\nGas      = %d\n',bases,orbitals,gas);
