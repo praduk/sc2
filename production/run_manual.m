@@ -3,7 +3,7 @@ close all;
 
 %%%%%%% INPUTS %%%%%%%
 
-bases    = 3;
+bases    = 4;
 orbitals = 3;
 gas      = 8;
 
@@ -18,17 +18,17 @@ marauder  = 0;
 ghost     = 0;
 
 % Factory Units
-hellion   = 4;
-seigetank = 2;
+hellion   = 2;
+seigetank = 0;
 mine      = 0;
 thor      = 0;
-cyclone   = 0;
+cyclone   = 4;
 
 % Starport Units
 medivac       = 0;
-viking        = 2;
+viking        = 5;
 liberator     = 0;
-raven         = 2;
+raven         = 0;
 banshee       = 0;
 battlecruiser = 0;
 
