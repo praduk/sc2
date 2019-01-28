@@ -162,7 +162,7 @@ cost_time = [
 %%%%%%%%%%%%% CALCULATIONS %%%%%%%%%%%%%%%
 
 % Mineral Income (minerals/second)
-inc_minerals = (912/60 + 225/64)*bases;
+inc_minerals = (912/60)*bases + (225/64)*orbitals;
 inc_gas = (162/60)*gas;
 
 % Calculate Unit Composition
